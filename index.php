@@ -139,6 +139,19 @@ class Person {
 	$person2 = new Person('Jane', 'Web-designer', 22);
 			$person2->greeting();
 
+	echo "<br><br><hr>";		
+
+	$person3 = new Person('Paul', 'Menager', 33);
+
+			$person3->greeting();	
+
+ 	echo "<br><br><hr>";
+
+ 	$person4 = new Person('Sam', 'Doctror', 30);
+
+			$person4->greeting();
+
+ 
 		// $person1->name = 'Peter';
 		// $person1->speciality = 'Progammer';
 		// $person1->age = 25;
